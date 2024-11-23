@@ -14,5 +14,22 @@ const bibit = [
         nama: "Pupuk Kompos",
         jenis: "Organik",
         jumlah: "10"
+    },
+    {
+        id:3,
+        nama: "SP-36",
+        jenis: "Anorganik",
+        jumlah: "5"
+    },
+    {
+        id:4,
+        nama: "NPK",
+        jenis: "Anorganik",
+        jumlah: "7"
     }
-]
+];
+
+router.get("/", (req, res) => {
+    res.send(pupuk);
+});
+export default router;
