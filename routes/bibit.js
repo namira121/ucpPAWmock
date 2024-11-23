@@ -45,10 +45,10 @@ router.post("/", (req, res) => {
     res.status(201).json(newbibit);
 });
 router.delete("/:id", (req, res) => {
-    const bibitIndex = bibit.findIndex((t) => t.id === parseInt(req.params.id)); // Cari index berdasarkan ID
+    const bibitIndex = bibit.findIndex((t) => t.id === parseInt(req.params.id)); 
     if (bibitIndex === -1) return res.status(404).json({ message: "Data bibit tidak ada" });
 
-    const deletedBibit = bibit.splice(bibitIndex, 1)[0]; // Hapus data berdasarkan index
+    const deletedBibit = bibit.splice(bibitIndex, 1)[0];
     res.status(200).json({ message: `Data bibit '${deletedBibit.nama}' telah dihapus` });
 });
 
