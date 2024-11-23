@@ -7,6 +7,12 @@ const bibit = [
         id: 1,
         nama: "Pupuk Kandang",
         jenis: "Organik",
-        jumlah: "25"
+        jumlah: "15"
+    },
+    {
+        id:2,
+        nama: "Pupuk Kompos",
+        jenis: "Organik",
+        jumlah: "10"
     }
 ]
