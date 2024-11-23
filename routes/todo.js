@@ -30,8 +30,10 @@ router.put('/:id', (req, res) => {
     if(!bibit) return res.status(404).json({message: 'Data Bibit tidak ditemukan'});
     bibit.nama = req.body.nama || bibit.nama;
 
-    
-
+    res.status(200).json({
+        message: `Data bibit dengan ID ${bibit.id} telah diperbarui`,
+        updatedbibit: bibit
+    });
 })
 
 
