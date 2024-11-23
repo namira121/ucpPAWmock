@@ -2,27 +2,27 @@ import express, {Router} from "express";
 
 const router = express.Router();
 
-const bibit = [
+const pupuk = [
     {
-        id: 1,
+        idP: 1,
         nama: "Pupuk Kandang",
         jenis: "Organik",
         jumlah: "15"
     },
     {
-        id:2,
+        idP:2,
         nama: "Pupuk Kompos",
         jenis: "Organik",
         jumlah: "10"
     },
     {
-        id:3,
+        idP:3,
         nama: "SP-36",
         jenis: "Anorganik",
         jumlah: "5"
     },
     {
-        id:4,
+        idP:4,
         nama: "NPK",
         jenis: "Anorganik",
         jumlah: "7"

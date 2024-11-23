@@ -25,4 +25,13 @@ router.delete('/:id', (req, res) => {
     res.status(200).json({message: `Data bibit '${deletedBibit.nama}' telah dihapus`});
 })
 
+router.put('/:id', (req, res) => {
+    const bibit = bibitroute.find(t => t.id ===parseInt(req.params.id));
+    if(!bibit) return res.status(404).json({message: 'Data Bibit tidak ditemukan'});
+    bibit.nama = req.body.nama || bibit.nama;
+
+    
+
+})
+
 
