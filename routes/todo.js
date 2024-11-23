@@ -21,7 +21,8 @@ router.delete('/:id', (req, res) => {
     const bibitIndex = bibitroute.findIndex(t => t.id ===parseInt(req.params.id));
     if(bibitIndex === -1) return res.status(404).json({message: "Data bibit tidak ada"});
 
-    
+    const deletedBibit = bibitroute.splice(bibitIndex,1)[0];
+    res.status(200).json({message: `Data bibit '${deletedBibit.nama}' telah dihapus`});
 })
 
 
