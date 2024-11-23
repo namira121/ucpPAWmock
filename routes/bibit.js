@@ -30,6 +30,6 @@ const bibit = [
 ];
 
 router.get("/", (req, res) => {
-    res.send(pupuk);
+    res.send(bibit);
 });
 export default router;
