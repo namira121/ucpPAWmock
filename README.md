@@ -1,0 +1,8 @@
+![delete bibit](https://github.com/user-attachments/assets/aca1f063-202f-4588-91eb-c1e8a4a1846d)
+![get bibit 2](https://github.com/user-attachments/assets/bda9b471-ceea-403e-9bbc-2c7e5da4e55f)
+![post bibit](https://github.com/user-attachments/assets/3543a906-bd97-40b1-8fe8-4ce3447aa0f3)
+![put bibit](https://github.com/user-attachments/assets/4deea736-5e18-4724-b42b-f7a60ed3f54b)
+![delete pupuk](https://github.com/user-attachments/assets/ca04fdc1-0eb6-4f81-928a-c28e919d6a9f)
+![get pupuk](https://github.com/user-attachments/assets/c83ef958-49e7-476e-b744-06d69d04b2e1)
+![post pupuk](https://github.com/user-attachments/assets/b5436667-e013-4ca5-8cd5-3bad2e457166)
+![update pupuk](https://github.com/user-attachments/assets/0c4659b7-c8a5-4a53-9610-dbf7316853c2)
