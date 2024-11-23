@@ -10,7 +10,9 @@ app.use(bodyParser.json());
 
 app.use("/bibit", bibitRoute);
 app.use("/pupuk", pupukRoute);
-app.get("/", (req, res) => { // request dan respon
-    console.log(["GET ROUTE"]);
-    res.send("Met Pagi")
-});
+
+app.use(bodyParser.json());
+app.listen(PORT, () => 
+    console.log(
+        `Server berjalan di port : http://localhost:${PORT}`)
+);

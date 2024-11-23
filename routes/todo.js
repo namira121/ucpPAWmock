@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const bibitroute = require('./bibit')
+
 
 router.get('/', (req, res) => {res.json(bibitroute)});
 
